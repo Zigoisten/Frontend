@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars Pontok</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        #menu {
+            margin-bottom: 20px;
+        }
+        #menu button {
+            margin-right: 10px;
+        }
+        #result, #error {
+            margin-top: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h1>Codewars Felhasználói Pontok</h1>
+
+    <div id="menu">
+        <button onclick="showUserInfo()">Felhasználói pontok</button>
+    </div>
+
+    <div>
+        <input type="text" id="username" placeholder="Felhasználónév">
+        <button onclick="fetchUserData()">Keresés</button>
+    </div>
+
+    <div id="error"></div>
+    <div id="result"></div>
+
+    <script src="codescore.js"></script>
+</body>
+</html>
