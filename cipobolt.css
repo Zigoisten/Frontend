@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffc800;
+  }
+
+  h1 {
+    font-weight: bolder;
+  }
+  
+  .main-container {
+    background-color: #ffc800;
+    padding: 20px 0;
+  }
+  
+  .content-container {
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .navbar {
+    display: flex;
+    gap: 20px;
+    background-color: #ffc800;
+    padding: 10px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h2 {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .card a {
+    display: inline-block;
+    background-color: #ffc800;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
